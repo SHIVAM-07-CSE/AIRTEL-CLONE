@@ -1,0 +1,564 @@
+.nav-link {
+    color: black;
+    border-top: 2px solid transparent;
+    background: white;
+}
+
+.nav-link:hover {
+    color: #e40000;
+    border-top: 2px solid #e40000;
+}
+
+.nav-link ul li:hover a {
+    color: #e40000;
+}
+
+.banner {
+    height: 400px;
+}
+
+.bannerimage {
+    height: 400px;
+}
+
+.banner img {
+    height: 100%;
+    display: block;
+}
+
+.connection-container {
+    margin: 0 auto;
+    padding: 30px 0;
+    background: #F7F7FA;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.connection-title {
+    font-family: "TondoBold(woff2)";
+    font-weight: bold;
+    color: black;
+    font-size: 33px;
+    text-align: center;
+    padding: 65px 0 25px 0;
+}
+
+.connection-card {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin: 10px 20px;
+
+}
+
+.connection-card img {
+    width: 50px;
+    transition: 0.3s;
+    background: #E6E6FD;
+    border-radius: 50%;
+}
+
+.connection-card:hover img {
+    transform: scale(1.1);
+    border: 1px solid black;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, .15);
+}
+
+.connection-card p {
+    width: 50px;
+    height: 11px;
+    margin-top: 6px;
+    padding: 0 2px;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+}
+
+.connection-upgrade {
+    width: 100%;
+    max-width: 540px;
+    height: 90px;
+    margin: 70px 0 auto 0;
+    border-radius: 22px;
+    background: #FBFBFF;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #E6E6FD;
+
+}
+
+.upgrade-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    line-height: 8px;
+    padding-right: 40px;
+}
+
+.upgrade-icon {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upgrade-icon img {
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.upgrade-text h3 {
+    font-family: "TondoBold(woff2)";
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.upgrade-text p {
+    font-size: 12px;
+    color: grey;
+}
+
+.connection-upgrade-btn {
+    padding: 8px 18px;
+    border: 2px solid #222;
+    border-radius: 30px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.connection-upgrade-btn a {
+    text-decoration: none;
+    font-family: "TondoBold(woff2)";
+    color: #000;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.recharge-section {
+    margin: 0 auto;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #dcdcdc;
+
+}
+
+.recharge-title {
+    font-family: "TondoBold(woff2)";
+    font-weight: bold;
+    color: black;
+    font-size: 33px;
+    text-align: center;
+    padding: 65px 0 25px 0;
+}
+
+.recharge-card {
+    width: 70px;
+    height: 35px;
+    background: #ECEDFF;
+    gap: 2px;
+    margin: 10px 20px;
+    padding: 10px 56px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.recharge-card img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+
+.recharge-card span {
+    font-size: 16px;
+}
+
+.recharge-card:hover {
+    border: 1px solid #000;
+    opacity: 0.8;
+    scale: 1.02;
+}
+
+.recharge-enter-number {
+    margin: 30px auto;
+    display: flex;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px 12px;
+    background: #fff;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+.recharge-enter-number input {
+    width: 350px;
+    height: 45px;
+    font-size: 20px;
+    border: none;
+
+}
+
+.recharge-btn {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 12px;
+    background: black;
+    color: white;
+    line-height: 45px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.recharge-bth button {
+    width: 350px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 900;
+    border: none;
+}
+
+
+
+.airtel-app {
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, #F6C8C7 0%, #FCEDD8 100%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.airtel-appicon {
+    width: 40px;
+    height: 40px;
+}
+
+.airtel-appicon img {
+    width: 100%;
+
+}
+
+.airtel-apptext span {
+    font-family: Arial;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: black;
+}
+
+.airtel-appbtn {
+    text-align: center;
+}
+
+.airtel-appbtn button {
+    background: white;
+    color: #000;
+    border: 2px solid #222;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.recommendation {
+    background: #F7F7FA;
+}
+
+.reco-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 33px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.recmarea {
+    background: #FFFFFF;
+    border: 1px solid rgb(230, 230, 230);
+    margin: 10px;
+    border-radius: 18px;
+
+}
+
+.recmarea img {
+    width: 100%;
+    height: 220px;
+    border-radius: 18px 18px 0 0;
+
+}
+
+.recmarea p {
+    padding: 0 20px;
+}
+
+.recmarea h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Tondo Bold", Arial, sans-serif;
+    margin: 10px 20px;
+}
+
+.recmarea .category {
+    padding-top: 5px;
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+}
+
+.recmarea .description {
+    font-size: 16px;
+    color: #555;
+}
+
+.recommendation-button {
+    margin: 20px;
+    padding: 10px 28px;
+    background: black;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+
+.recommendation-button:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .15);
+}
+
+
+
+.wifi {
+    background-image: url('wifi-plan.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wifi-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 52px;
+    color: #fff;
+    margin-bottom: 2%;
+}
+
+.wifi-subtitle {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.wifi-card {
+    background: #F7F7FA;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 2px solid transparent;
+    transition: .3s;
+}
+
+.wifi-card:hover {
+    transform: translateY(-8px);
+    border-color: #e40000;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .15);
+}
+
+.wifi-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.category {
+    color: gray;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.wifi-card h3 {
+    margin: 0 20px;
+    font-size: 24px;
+}
+
+.description {
+    margin: 15px 20px;
+    color: #555;
+}
+
+.wifi-button {
+    margin: 20px;
+    padding: 10px 28px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.wifi-button:hover {
+    background: #e40000;
+}
+
+
+
+.listarea {
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-bottom: 1px solid #dcdcdc;
+
+}
+
+.listarea-card {
+    background: white;
+}
+@media(max-width:767.98px) {
+    .footer-column{
+        border-bottom: 1px solid #dcdcdc;
+        padding:12px 10px;
+    }
+    .footer-column:last-child{
+        border-bottom:none;
+    }
+    .dropdown{
+        
+    }
+}
+
+.listarea-card p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.listarea-card ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    list-style: none;
+    padding: 2px;
+}
+
+.listarea-card ul li {
+    padding-bottom: 15px;
+}
+
+.listarea-card ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.listarea-card ul li a:hover {
+    color: #e40000;
+}
+
+
+
+.listarea-footer {
+    margin: 20px 0;
+}
+
+
+.listarea-footer-icon {
+    width: 32px;
+    height: 32px;
+
+}
+
+.listarea-footer-icon img {
+    width: 100%;
+
+}
+
+.listarea-footer-getapp {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
+}
+
+.listarea-footer-getapp p,.listarea-footer-followus p {
+    font-family: Arial;
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 0;
+
+}
+
+.listarea-footer-getapp img {
+    width: 85px;
+    height: 25px;
+
+}
+
+.listarea-footer-followus {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+
+.listarea-footer-followus-iconarea {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.listarea-footer-followus-icon {
+    width: 20px;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#000;
+    border-radius:50%;
+}
+
+.listarea-footer-followus-icon img {
+    width: 85%;
+    height: 85%;
+    object-fit: contain;
+}
+
+.listarea-footer-button {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: Sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+.footer{
+    background:#F7F7FA;
+    
+}
