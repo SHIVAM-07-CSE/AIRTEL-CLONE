@@ -8,6 +8,10 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="aos.css">
     <link rel="stylesheet" href="aos.js">
@@ -27,10 +31,30 @@
 
 <body>
     <header>
+        <div class="top-header">
+            <div class="container">
+                <div class="top-header-content">
+
+                    <div class="top-left">
+                        <a href="#" class="active">INDIVIDUAL</a>
+                        <a href="#">BUSINESS</a>
+                        <a href="#">INVESTOR</a>
+                    </div>
+
+                    <div class="top-right">
+                        <a href="#">
+                            <i class="bi bi-grid"></i>
+                            Explore Airtel
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <nav class="navbar navbar-expand-lg">
                         <div class="container-fluid">
                             <a class="navbar-brand" href="#"><img src="airtel.png" alt=""></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -44,7 +68,7 @@
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
-                                            Wi-Fi
+                                            Wi-Fi  &#9662;
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#"> Wi-Fi Bill Payment </a></li>
@@ -72,7 +96,7 @@
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
-                                            Postpaid
+                                            Postpaid  &#9662;
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#"> Wi-Fi Bill Payment </a></li>
@@ -100,7 +124,7 @@
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
-                                            Prepaid
+                                            Prepaid  &#9662;
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#"> Wi-Fi Bill Payment </a></li>
@@ -128,7 +152,7 @@
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
-                                            DTH
+                                            DTH  &#9662;
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#"> Wi-Fi Bill Payment </a></li>
@@ -156,7 +180,7 @@
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
-                                            Airtel Black
+                                            Airtel Black  &#9662;
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#"> Wi-Fi Bill Payment </a></li>
@@ -184,7 +208,7 @@
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
-                                            Bank
+                                            Bank  &#9662;
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#"> Wi-Fi Bill Payment </a></li>
@@ -212,7 +236,7 @@
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
-                                            Finance
+                                            Finance  &#9662;
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#"> Wi-Fi Bill Payment </a></li>
@@ -240,7 +264,7 @@
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
-                                            Help
+                                            Help  &#9662;
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#"> Wi-Fi Bill Payment </a></li>
@@ -278,11 +302,54 @@
                                         </a>
                                     </li>
                                 </ul>
-                                <form class="d-flex" role="search">
-                                    <input class="form-control me-2" type="search" placeholder="Search"
-                                        aria-label="Search" />
-                                    <button class="btn btn-outline-success" type="submit">Search</button>
-                                </form>
+                                <ul class="navbar-nav ms-auto navbar-actions">
+
+                                    <li class="nav-item dropdown">
+
+                                        <a href="#" class="nav-link action-link dropdown-toggle"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+
+                                            <span class="account-circle">
+                                                <i class="bi bi-person"></i>
+                                            </span>
+
+                                            <span>Account</span>
+
+                                        </a>
+
+                                        <ul class="dropdown-menu dropdown-menu-end">
+
+                                            <li>
+                                                <a class="dropdown-item" href="login.html">
+                                                    <i class="bi bi-phone"></i> Login
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+
+                                            <li>
+                                                <a class="dropdown-item" href="#">
+                                                    <i class="bi bi-currency-rupee"></i> Recharge
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+
+                                            <li>
+                                                <a class="dropdown-item" href="#">
+                                                    <i class="bi bi-bell"></i> Report DND Notifications
+                                                </a>
+                                            </li>
+
+                                        </ul>
+
+                                    </li>
+
+                                </ul>
                             </div>
                         </div>
                     </nav>
@@ -294,21 +361,282 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div id="carouselExample" class="carousel slide">
+                    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <div class="bannerimage">
-                                    <img src="banner\banner1.webp" class="d-block w-100" alt="...">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-5 col-md-6">
+                                        <div class="bannertext">
+                                            <h1>Give your Family the advantage of Postpaid</h1>
+                                            <p>Faster Speed, Big Savings.</p>
+
+                                            <a href="#" class="banner-button">
+                                                2 SIMS AT ₹799
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7 col-md-6">
+                                        <div class="bannerimage">
+                                            <img src="banner/banner2.webp" class="img-fluid w-100" alt="Banner 2">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="bannerimage">
-                                    <img src="banner\banner2.webp" class="d-block w-100" alt="...">
+                                <div class="row align-items-center">
+
+                                    <div class="col-lg-5 col-md-6">
+                                        <div class="bannertext">
+                                            <h1>Give your Family the advantage of Postpaid</h1>
+                                            <p>Faster Speed, Big Savings.</p>
+
+                                            <a href="#" class="banner-button">
+                                                2 SIMS AT ₹799
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-7 col-md-6">
+                                        <div class="bannerimage">
+                                            <img src="banner/banner2.webp" class="img-fluid w-100" alt="Banner 2">
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="bannerimage">
-                                    <img src="banner\banner3.webp" class="d-block w-100" alt="...">
+                                <div class="row align-items-center">
+
+                                    <div class="col-lg-5 col-md-6">
+                                        <div class="bannertext">
+                                            <h1>Get monthly Premium perks for Free</h1>
+                                            <p>Exclusive for Airtel users Only.</p>
+
+                                            <a href="#" class="banner-button">
+                                                VISIT THE AIRTEL APP
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-7 col-md-6">
+                                        <div class="bannerimage">
+                                            <img src="banner/banner3.webp" class="img-fluid w-100" alt="Banner 3">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row align-items-center">
+
+                                    <div class="col-lg-5 col-md-6">
+                                        <div class="bannertext">
+                                            <h1>Turns your Ideas into Design</h1>
+                                            <p>Adobe Express Premium worth ~₹4000, FREE for all Airtel users for 12
+                                                months.</p>
+
+                                            <a href="#" class="banner-button">
+                                                LEARN MORE
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-7 col-md-6">
+                                        <div class="bannerimage">
+                                            <img src="banner/banner4.webp" class="img-fluid w-100" alt="Banner 4">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row align-items-center">
+
+                                    <div class="col-lg-5 col-md-6">
+                                        <div class="bannertext">
+                                            <h1>You decide who gets</h1>
+                                            <p>Talktime ki Taaqat</p>
+
+                                            <a href="#" class="banner-button">
+                                                VIEW NOW
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-7 col-md-6">
+                                        <div class="bannerimage">
+                                            <img src="banner/banner5.webp" class="img-fluid w-100" alt="Banner 5">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row align-items-center">
+
+                                    <div class="col-lg-5 col-md-6">
+                                        <div class="bannertext">
+                                            <h1>Get ₹1000 OFF</h1>
+                                            <p>Buy New Wi-Fi & enjoy unlimited data</p>
+
+                                            <a href="#" class="banner-button">
+                                                GET NOW
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-7 col-md-6">
+                                        <div class="bannerimage">
+                                            <img src="banner/banner6.webp" class="img-fluid w-100" alt="Banner 6">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row align-items-center">
+
+                                    <div class="col-lg-5 col-md-6">
+                                        <div class="bannertext">
+                                            <h1>Entertainment Ka Blockbuster</h1>
+                                            <p>Get Netflix & 24+ OTTs with Wi-Fi.</p>
+
+                                            <a href="#" class="banner-button">
+                                                PLANS START AT ₹999
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-7 col-md-6">
+                                        <div class="bannerimage">
+                                            <img src="banner/banner7.png" class="img-fluid w-100" alt="Banner 7">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row align-items-center">
+
+                                    <div class="col-lg-5 col-md-6">
+                                        <div class="bannertext">
+                                            <h1>All Your Financial Needs.</h1>
+                                            <p>All in One Place with Airtel Finance</p>
+
+                                            <a href="#" class="banner-button">
+                                                EXPLORE NOW
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-7 col-md-6">
+                                        <div class="bannerimage">
+                                            <img src="banner/banner8.webp" class="img-fluid w-100" alt="Banner 8">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row align-items-center">
+
+                                    <div class="col-lg-5 col-md-6">
+                                        <div class="bannertext">
+                                            <h1>Pay Safely, Earn Your Rewards</h1>
+
+                                            <p>
+                                                Send money, make payments & get loans. Do all this and more with
+                                                Airtel Payments Bank.
+                                            </p>
+
+                                            <a href="#" class="banner-button">
+                                                GET STARTED
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-7 col-md-6">
+                                        <div class="bannerimage">
+                                            <img src="banner/banner9.avif" class="img-fluid w-100" alt="Banner 9">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row align-items-center">
+
+                                    <div class="col-lg-5 col-md-6">
+                                        <div class="bannertext">
+                                            <h1>Airtel Referral Program is here!</h1>
+
+                                            <p>
+                                                Get up to ₹300 every time you refer any Airtel service to your
+                                                friends.
+                                            </p>
+
+                                            <a href="#" class="banner-button">
+                                                REFER NOW
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-7 col-md-6">
+                                        <div class="bannerimage">
+                                            <img src="banner/banner10.avif" class="img-fluid w-100" alt="Banner 10">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row align-items-center">
+
+                                    <div class="col-lg-5 col-md-6">
+                                        <div class="bannertext">
+                                            <h1>Transforming Telcos Across the World</h1>
+
+                                            <p>
+                                                Introducing Xtelify's AI-powered software platforms.
+                                            </p>
+
+                                            <a href="#" class="banner-button">
+                                                LEARN MORE
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-7 col-md-6">
+                                        <div class="bannerimage">
+                                            <img src="banner/banner11.webp" class="img-fluid w-100" alt="Banner 11">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row align-items-center">
+
+                                    <div class="col-lg-5 col-md-6">
+                                        <div class="bannertext">
+                                            <h1>Ministry of Home Affairs I4C Data Shows</h1>
+
+                                            <p>
+                                                68.7% drop in fraud losses for Airtel users.
+                                            </p>
+
+                                            <a href="#" class="banner-button">
+                                                KNOW MORE
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-7 col-md-6">
+                                        <div class="bannerimage">
+                                            <img src="banner/banner12.webp" class="img-fluid w-100" alt="Banner 12">
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -720,8 +1048,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
         </script>
-    <script src="aos.js">
-    </script>
+    <script src="aos.js"></script>
     <script>
         AOS.init({
             easing: 'ease-out-back',
