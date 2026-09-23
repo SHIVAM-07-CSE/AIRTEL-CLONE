@@ -1,0 +1,208 @@
+			body {
+				background: none;
+				margin: 0;
+				padding: 0;
+			}
+
+			#header {
+				width: 1521px;
+				margin: 0 auto;
+				z-index: 1000;
+				position: fixed;
+				background: white;
+				border-bottom: 1px solid #dcdcdc;
+			}
+
+			#top {
+				width: 100%;
+				height: 35px;
+				padding-top: 0;
+			}
+
+			#secondheader {
+				width: 1232px;
+				height: 70px;
+				margin: 4px auto;
+			}
+
+			#logo {
+				width: 140px;
+				height: 64px;
+				float: left;
+				margin: 0;
+			}
+
+			#logo img {
+				width: 100%;
+				height: 100%;
+				float: left;
+			}
+
+			#menu {
+				width: 1232px;
+				height: 70px;
+			}
+
+			#menu ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+
+			#menu ul li {
+				float: left;
+				position: relative;
+			}
+
+			#menu ul li a {
+				display: block;
+				color: black;
+				padding: 25px 18px;
+				text-decoration: none;
+				font-family: Arial;
+				font-size: 13px;
+			}
+
+			#menu ul li a:hover {
+				font-weight: bold;
+				border-top: solid 3px #e40000;
+				background: #f5f5f5;
+			}
+
+			#menu ul li:hover ul {
+				display: block;
+				position: absolute;
+				z-index: 600;
+				min-width: 180px;
+				box-shadow: 0 8px 20px rgba(0, 0, 0, .15);
+			}
+
+			#menu ul li ul {
+				display: none;
+				background: white;
+				border: 1px solid #dcdcdc;
+				border-radius: 12px;
+			}
+
+			#menu ul li ul li {
+				float: none;
+				border-bottom: 1px solid #dcdcdc;
+			}
+
+			#menu ul li ul a:link,
+			#menu ul li ul a:visited {
+				color: black;
+				text-decoration: none;
+				display: block;
+				font-family: Arial;
+				font-size: 11px;
+			}
+
+			#menu ul li ul li a:hover {
+				font-weight: bold;
+				color: #e40000;
+				border-top: none;
+			}
+
+
+
+
+
+			#loginpage {
+				width: 1521px;
+				height: 711px;
+				margin: 0 auto: background:white;
+				padding-top: 35px;
+			}
+
+			.loginpage-left {
+				width: 550px;
+				height: 711px;
+				float: left;
+				background-image: url('left.png');
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: right;
+			}
+
+			.loginpage-left h1 {
+				color: white;
+				padding: 80px 50px 0 150px;
+				margin-bottom: 2px;
+				font-family: "Geist", sans-serif;
+				font-optical-sizing: auto;
+				font-weight: bold;
+				font-style: normal;
+				font-size: 52px;
+
+			}
+
+			.loginpage-left p {
+				color: white;
+				margin-top: 0;
+				padding: 0 40px 240px 150px;
+				font-family: "Geist", sans-serif;
+				font-optical-sizing: auto;
+				font-style: normal;
+				font-size: 20px;
+
+			}
+
+			.loginpage-right {
+				width: 971px;
+				height: 711px;
+				margin: 0 auto;
+				background: #ECEDFF;
+				float: right;
+			}
+
+			.logincard {
+				width: 310px;
+				padding: 150px 250px 170px 240px;
+
+			}
+
+			.logincard h3 {
+				font-family: "Geist", sans-serif;
+				font-optical-sizing: auto;
+				font-style: normal;
+				font-size: 22px;
+				color: black;
+				text-align: center;
+
+			}
+
+			.login-items {
+				width: 322px;
+				height: 100px;
+			}
+
+			.login-items-text {
+				font-family: Arial;
+				font-size: 13px;
+				color: grey;
+				padding: 8px 0;
+			}
+
+			.number {
+				width: 320px;
+				padding: 12px;
+				margin-bottom: 22px;
+				color: grey;
+				background: #fff;
+				border: 1px solid grey;
+				border-radius: 8px;
+				font-family: Arial;
+			}
+
+			.otp {
+				width: 320px;
+				padding: 12px;
+				margin-bottom: 22px;
+				color: white;
+				background: #000;
+				border: 1px solid #000;
+				border-radius: 8px;
+				text-align: center;
+				font-family: Arial;
+			}
