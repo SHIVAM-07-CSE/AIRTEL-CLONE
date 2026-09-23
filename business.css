@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* TOP HEADER */
+
+#top {
+    height: 35px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+
+/* TOP HEADER LINKS */
+
+#top .nav-link {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 9px 18px;
+    border-top: 3px solid transparent;
+}
+
+
+/* ACTIVE BUSINESS */
+
+#top .nav-link.active {
+    color: #e40000;
+    border-top: 3px solid #e40000;
+}
+
+
+/* HOVER */
+
+#top .nav-link:hover {
+    color: #e40000;
+    border-top: 3px solid #e40000;
+}
+
+
+/* MAIN NAVBAR */
+
+.navbar {
+    min-height: 70px;
+}
+
+
+/* LOGO */
+
+.navbar-brand img {
+    height: auto;
+}
+
+
+/* MENU */
+
+.navbar .nav-link {
+    color: black;
+    font-size: 13px;
+    padding: 24px 18px;
+}
+
+
+/* MENU HOVER */
+
+.navbar .nav-link:hover {
+    color: #e40000;
+}
+
+
+/* DROPDOWN */
+
+.dropdown-menu {
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .15);
+    border: 1px solid #dcdcdc;
+}
+
+
+/* DROPDOWN ITEMS */
+
+.dropdown-item {
+    font-size: 12px;
+    padding: 10px 15px;
+}
+
+
+/* DROPDOWN HOVER */
+
+.dropdown-item:hover {
+    color: #e40000;
+    background: #f5f5f5;
+}
+
+
+/* HERO */
+
+.business-hero {
+    min-height: 500px;
+    background: #f5f5f5;
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* HERO TEXT */
+
+.hero-text {
+    padding: 60px 0;
+}
+
+
+.business-label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #e40000;
+}
+
+
+.hero-text h1 {
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+
+.hero-text > p:not(.business-label) {
+    font-size: 18px;
+}
+
+
+/* BUTTON */
+
+.explore-btn {
+    background: black;
+    color: white;
+
+    padding: 14px 25px;
+
+    border-radius: 8px;
+}
+
+
+.explore-btn:hover {
+    background: #e40000;
+    color: white;
+}
+
+
+/* BUSINESS SECTION */
+
+.business-section {
+    padding: 60px 0;
+}
+
+
+.business-section h2 {
+    font-size: 35px;
+}
+
+
+/* BUSINESS CARD */
+
+.business-card {
+    padding: 30px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 15px;
+
+    background: white;
+
+    transition: 0.3s;
+}
+
+
+/* CARD HOVER */
+
+.business-card:hover {
+    border-color: #e40000;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .1);
+}
