@@ -26,6 +26,11 @@
     border-top: 3px solid transparent;
 }
 
+.top-left a.active {
+    color: #e40000;
+    border-top: 3px solid #e40000;
+}
+
 .top-left a:hover {
     color: #e40000;
     border-top: 3px solid #e40000;
@@ -84,12 +89,7 @@
     }
 }
 
-@media (max-width: 991px) {
-    .top-left a.active {
-        color: #e40000;
-        border-top: 3px solid #e40000;
-    }
-}
+@media (max-width: 991px) {}
 
 
 .navbar {
@@ -782,8 +782,6 @@
     .footer-column:last-child {
         border-bottom: none;
     }
-
-    .dropdown {}
 }
 
 .listarea-card p {
